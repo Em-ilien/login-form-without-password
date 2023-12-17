@@ -96,6 +96,18 @@
 	<div class="justify-start items-start gap-2.5 flex flex-row text-slate-400 gap-3">
 		<span>@Em_ilien</span>
 		<span>2023</span>
+		<a
+			target="_blank"
+			class="text-slate-400 hover:text-slate-500 transition-all duration-200 ease-in-out"
+			href="https://github.com/Em-ilien/login-form-without-password"
+			>github.com/Em-ilien/login-form-without-password</a
+		>
+		<a
+			target="_blank"
+			class="text-slate-400 hover:text-slate-500 transition-all duration-200 ease-in-out"
+			href="https://login-form-without-password.vercel.app"
+			>login-form-without-password.vercel.app/</a
+		>
 	</div>
 </div>
 
