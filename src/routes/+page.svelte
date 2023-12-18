@@ -46,8 +46,9 @@
 							class:bg-slate-900={!passwordForgotten}
 						></div>
 						<div
-							class="w-5 h-5 left-[2px] top-[2px] absolute bg-white rounded-full transition-all duration-200 ease-in-out"
-							class:left-[22px]={!passwordForgotten}
+							class="w-5 h-5 {!passwordForgotten
+								? 'left-[22px]'
+								: 'left-[2px]'} top-[2px] absolute bg-white rounded-full transition-all duration-200 ease-in-out"
 						></div>
 					</div>
 					<div class="text-black text-base font-medium leading-none">
@@ -93,8 +94,12 @@
 			</div>
 		</div>
 	</form>
-	<div class="justify-start items-start gap-2.5 flex flex-row text-slate-400 gap-3">
-		<span>@Em_ilien</span>
+	<div class="w-full flex-row justify-center items-center gap-4 flex text-slate-400">
+		<a
+			target="_blank"
+			class="text-slate-400 hover:text-slate-500 transition-all duration-200 ease-in-out"
+			href="https://twitter.com/Em_ixocle">@Em_ilien</a
+		>
 		<span>2023</span>
 		<a
 			target="_blank"
